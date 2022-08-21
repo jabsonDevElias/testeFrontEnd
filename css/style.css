@@ -1,0 +1,409 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: DINPro;
+    src: url(../font/DINPro.ttf);
+}
+
+body {
+    font-family: DINPro;
+    background-color: #F2F2F2;
+}
+
+/***menu***/
+.menu {
+    position: relative;
+    z-index: 999;
+    background-color: #fff;
+    box-shadow: -1px 4px 5px -1px rgba(0, 0, 0, 0.28);
+}
+
+/***menu***/
+
+/**descricao do topo***/
+
+
+.descricao-topo {
+    background-color: #154C82;
+    color: #fff;
+    font-weight: 400;
+}
+
+.destaque {
+    font-weight: 700;
+}
+
+/**descricao do topo***/
+
+
+
+/***carrossel**/
+
+.botoes-acao-carrossel-right,
+.botoes-acao-carrossel-left {
+    background-color: #DB812D;
+    height: 12vh;
+    width: 3vw;
+    margin: auto 0;
+    border-radius: 15px 0px 0px 15px;
+    opacity: 1;
+    padding: 0.5vw;
+}
+
+.botoes-acao-carrossel-left {
+    border-radius: 0px 15px 15px 0px;
+}
+
+/***carrossel**/
+
+/***vitre-loja***/
+
+.vitrine-loja {
+    background-color: #F2F2F2;
+    padding: 4vw 0;
+}
+
+.separador {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 2vw;
+    width: 28%;
+    margin: 0 auto 25px;
+    color: #DB812D;
+}
+
+.separador::before,
+.separador::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #DB812D;
+}
+
+.separador::before {
+    margin-right: .25em;
+}
+
+.separador::after {
+    margin-left: .25em;
+}
+
+.btn-todos-produtos {
+    background-color: #DB812D;
+    border-radius: 15px;
+    border: none;
+    padding: 0.6vw 1vw;
+    color: #fff;
+}
+
+.botoes-acao-carrossel-right-vitrine,
+.botoes-acao-carrossel-left-vitrine {
+    background-color: #154C82;
+    height: 12vh;
+    width: 3vw;
+    margin: auto 0;
+    border-radius: 15px 0px 0px 15px;
+    opacity: 1;
+    padding: 0.5vw;
+}
+
+.botoes-acao-carrossel-left-vitrine {
+    border-radius: 0px 15px 15px 0px;
+}
+
+.card-produto {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
+    width: 22%;
+    text-align: center;
+}
+
+.card-produto p {
+    font-size: 1vw;
+    line-height: 21px;
+    width: 67%;
+    margin: 25px auto;
+}
+
+.card-produto span {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.card-produto strong {
+    color: #DB812D;
+}
+
+.btn-compra {
+    text-decoration: none;
+    background: #154C82;
+    border-radius: 30px;
+    border: none;
+    text-transform: uppercase;
+    padding: 0.5vw 0;
+    margin: 25px 0;
+    color: #fff;
+    width: 80%;
+}
+
+.carrossel-produtos {
+    padding: 65px 0;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #154C82;
+    margin-top: 100px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.mobile {
+    display: none;
+}
+
+
+/***vitre-loja***/
+
+/***inicio nossas lojas***/
+
+.nossas-lojas {
+    background-color: #DB812D;
+    margin: 7vw 0;
+}
+
+.div-1 {
+    position: relative;
+    top: -10vh;
+    background-color: #DB812D;
+    height: 20vh;
+    width: 100%;
+    transform: skewY(-5deg);
+
+}
+
+.div-2 {
+    position: relative;
+    background-color: #DB812D;
+    top: 10vh;
+    height: 20vh;
+    width: 100%;
+    transform: skewY(5deg);
+}
+
+.cards-lojas {
+    background-color: #DB812D;
+    width: 100%;
+    color: #fff;
+}
+
+.img-loja {
+    border: 2px solid #DB812D;
+}
+
+.img-loja img {
+    width: 100%;
+}
+
+.cards-lojas .separador {
+    color: #ffffff;
+}
+
+.cards-lojas .separador::before,
+.cards-lojas .separador::after {
+    border-bottom: 1px solid #ffffff;
+}
+
+
+.cards-lojas .btn-todos-produtos {
+    border: 2px solid #fff;
+    padding: 1vw;
+    color: #fff;
+    margin-bottom: 2vw;
+    width: 28%;
+}
+
+/***final nossas lojas***/
+
+/***incio do cinemark***/
+
+.cinemark {
+    margin: 20vw 0;
+}
+
+.cinemark .separador {
+    width: 40%;
+}
+
+/***final do cinemark***/
+
+/***incio do gastronomia***/
+
+
+.gastronomia {
+    background-color: #CC2131;
+    margin: 7vw 0;
+}
+
+.div-3 {
+    position: relative;
+    top: -10vh;
+    background-color: #CC2131;
+    height: 20vh;
+    width: 100%;
+    transform: skewY(5deg);
+
+}
+
+.div-4 {
+    position: relative;
+    background-color: #CC2131;
+    top: 10vh;
+    height: 20vh;
+    width: 100%;
+    transform: skewY(-5deg);
+}
+
+.gastronomia .separador {
+    color: #fff;
+}
+
+.gastronomia .separador::before,
+.gastronomia .separador::after {
+    border-bottom: 1px solid #ffffff;
+}
+
+.gastronomia .card-produto {
+    background-color: #CC2131;
+    border: none;
+    color: #fff;
+    box-shadow: none;
+}
+
+.gastronomia .card-produto h4 {
+    margin-top: 7vh;
+    font-weight: bold;
+}
+
+.gastronomia .card-produto p {
+    width: 80%;
+    text-indent: 4px;
+    text-align: center;
+}
+
+.gastronomia .carousel-indicators [data-bs-target] {
+    background-color: #E0E0E0;
+    margin-top: 100px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.gastronomia .carousel-indicators .active {
+    background-color: #FFF22D;
+}
+
+.gastronomia .botoes-acao-carrossel-right-vitrine,
+.gastronomia .botoes-acao-carrossel-left-vitrine {
+    background-color: #FFF22D;
+
+}
+
+
+/***final do gastronomia***/
+
+/***inicio do instagram***/
+.instagram {
+    margin-bottom: 23vh;
+}
+
+.instagram .separador {
+    width: 22%;
+}
+
+.titulo-instagram {
+    width: 100%;
+    margin: 4vh 0;
+}
+
+.card-instagram {
+    width: 20%;
+}
+
+.card-instagram img {
+    width: 100%;
+}
+
+/***finalo do instagram***/
+/***inicio do rodape***/
+.rodape {
+    background-color: #333333;
+    color: #F2F2F2;
+    padding-bottom: 10vh;
+}
+
+.rodape .div-3 {
+    background-color: #333333;
+}
+
+.rodape p {
+    font-size: 1vw;
+}
+
+.rodape li {
+    font-size: 1vw;
+}
+
+.card-1 {
+    width: 35%;
+}
+
+.card-2 {
+    width: 15%;
+}
+
+
+.card-2 ul {
+    padding: 0;
+    width: 100%;
+}
+
+.historico {
+    border-left: 4px solid #DB812D;
+}
+
+.historico a {
+    color: #fff;
+}
+
+.historico .sp-1 {
+    margin: 5vh 0;
+}
+
+.btn-contratar {
+    background-color: #DB812D;
+    padding: 1vw;
+    text-align: center;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.center {
+    justify-content: space-between;
+}
+
+.btn-contratar a {
+    color: #fff;
+}
+
+/***rodape***/

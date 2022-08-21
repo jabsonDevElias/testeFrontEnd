@@ -1,0 +1,235 @@
+@media screen and (max-width:1000px) {
+    .separador {
+        width: 60%;
+        font-size: 4vw;
+
+    }
+
+    .cinemark .separador {
+        width: 80%;
+    }
+
+    .instagram .separador {
+        width: 40%;
+    }
+
+    .card-3 {
+        width: 100%;
+        font-size: 4vw;
+    }
+
+    .card-1 {
+        width: 100%;
+    }
+
+    .card-1 ul {
+        margin: 3vw 0;
+    }
+
+    .card-1 li {
+        font-size: 2vw;
+    }
+
+    .card-2 {
+        width: 100%;
+        margin: 5vw 0;
+    }
+
+    .card-2 p {
+        font-size: 5vw;
+        width: 80%;
+    }
+
+    .card-2 ul {
+        width: 40%;
+    }
+
+    .card-3 p {
+        font-size: 2vw;
+    }
+
+    .card-3 span {
+        font-size: 4vw;
+    }
+
+    .card-3 .btn-contratar {
+        padding: 1vw;
+    }
+
+
+}
+
+@media screen and (max-width:780px) {
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .mobile .card-produto {
+        width: auto;
+    }
+
+    .mobile .card-produto {
+        width: auto;
+    }
+
+    .card-produto p {
+        font-size: small;
+    }
+
+    .btn-compra {
+        padding: 1.5vw 0;
+    }
+
+    .logo-1 {
+        margin: 0 10vw;
+        width: 40%;
+    }
+
+    .buscar {
+        display: none;
+    }
+
+    .itens-menu {
+        justify-content: center;
+    }
+
+    .sp-1 {
+        justify-content: center !important;
+    }
+
+    .sp-right {
+        justify-content: right !important;
+    }
+
+    /**inicio-carrosel**/
+    .botoes-acao-carrossel-right,
+    .botoes-acao-carrossel-left {
+        height: 58px;
+        width: 12vw;
+        padding: 1.5vw;
+    }
+
+    .separador {
+        width: 80%;
+        font-size: 8vw;
+    }
+
+    .btn-todos-produtos {
+        width: 60%;
+        padding: 4vw 0;
+        border-radius: 20px;
+        background-color: transparent;
+        border: 1px solid #DB812D;
+        color: #DB812D;
+    }
+
+    .botoes-acao-carrossel-right-vitrine,
+    .botoes-acao-carrossel-left-vitrine {
+        height: 58px;
+        width: 12vw;
+        padding: 1.5vw;
+    }
+
+    .nossas-lojas {
+        margin: 33vw 0;
+        width: 100%;
+        font-size: 4vw;
+    }
+
+    .img-loja {
+        display: none;
+    }
+
+    .card-mobile {
+        display: block;
+    }
+
+    .cards-lojas .btn-todos-produtos {
+        width: 70%;
+        margin-bottom: 10vw;
+        padding: 7vw;
+    }
+
+
+    .vitrine-loja .separador {
+        width: 80%;
+        font-size: 6vw;
+    }
+
+    .cinemark .separador {
+        width: 100%;
+        font-size: 5vw;
+    }
+
+    .gastronomia {
+        margin: 35vw 0;
+    }
+
+    .gastronomia .separador {
+        width: 80%;
+        font-size: 8vw;
+    }
+
+    .gastronomia .botoes-acao-carrossel-right-vitrine,
+    .gastronomia .botoes-acao-carrossel-left-vitrine {
+        display: none;
+
+    }
+
+    .instagram .separador {
+        width: 50%;
+        font-size: 4vw;
+    }
+
+
+    .card-1,
+    .card-2,
+    .card-3 {
+        width: 60%;
+        margin: 5vw 0;
+
+    }
+
+
+    .card-3 span {
+        font-size: 6vw;
+
+    }
+
+    .card-3 p {
+        font-size: 4vw;
+
+    }
+
+    .center {
+        justify-content: center;
+    }
+
+    .card-1 ul {
+        width: 100%;
+        margin: 5vh 0;
+    }
+
+    .card-1 li {
+        font-size: 5vw;
+    }
+
+
+
+    .card-2 p {
+        font-size: 6vw;
+    }
+
+    .card-2 ul {
+        width: 70%;
+    }
+
+    .btn-contratar {
+        padding: 4vw;
+    }
+
+}
